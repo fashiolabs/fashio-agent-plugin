@@ -29,8 +29,9 @@ credits) from the key's account, the same as using the app. There is no test mod
 
 ## Flow
 
-1. **Get the garment online.** Use a public image URL the user gives you, or
-   `upload_image` for a local file (jpg/png/webp, up to 8 MB).
+1. **Get the garment online.** Prefer a public image URL the user gives you. Otherwise
+   `upload_image` takes the image as base64 bytes plus its `format` (jpg/png/webp, up
+   to 8 MB) and returns a URL. (The local `fashio-mcp` npm package takes a file path instead.)
 2. **Pick the tool.** `list_models` lists every `toolId` and the images it needs. Common ones:
 
    | Goal | toolId | Needs |
