@@ -1,0 +1,27 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "fashio",
+  "displayName": "Fashio",
+  "version": "1.0.0",
+  "description": "AI fashion product photos with Fashio: a skill plus its hosted MCP server (needs a Fashio API key; generations use credits).",
+  "author": {
+    "name": "Fashio AI",
+    "email": "hi@fashiolabs.com",
+    "url": "https://fashiolabs.com"
+  },
+  "publisher": "Fashio",
+  "homepage": "https://fashiolabs.com/mcp",
+  "repository": "https://github.com/fashiolabs/fashio-agent-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "fashion",
+    "ecommerce",
+    "product-photography",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
