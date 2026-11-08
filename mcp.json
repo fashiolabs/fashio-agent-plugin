@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "fashio": {
+      "type": "streamable-http",
+      "url": "https://mcp.fashiolabs.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FASHIO_API_KEY}"
+      }
+    }
+  }
+}

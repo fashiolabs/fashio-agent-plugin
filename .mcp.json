@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fashio": {
+      "type": "http",
+      "url": "https://mcp.fashiolabs.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FASHIO_API_KEY}"
+      }
+    }
+  }
+}

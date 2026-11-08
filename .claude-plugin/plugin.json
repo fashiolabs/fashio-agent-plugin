@@ -1,0 +1,10 @@
+{
+  "name": "fashio",
+  "version": "1.0.0",
+  "description": "Generate e-commerce fashion photos with Fashio (hosted MCP server + skill). Needs FASHIO_API_KEY; generations spend your Fashio credits.",
+  "author": { "name": "Fashio AI", "email": "hi@fashiolabs.com", "url": "https://fashiolabs.com" },
+  "homepage": "https://fashiolabs.com/mcp",
+  "repository": "https://github.com/fashiolabs/fashio-agent-plugin",
+  "license": "MIT",
+  "keywords": ["fashion", "ecommerce", "product-photography", "mcp"]
+}

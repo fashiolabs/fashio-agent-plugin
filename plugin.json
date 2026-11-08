@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fashio",
+  "version": "1.0.0",
+  "description": "Generate e-commerce fashion photos with Fashio: garment on an AI model, virtual try-on, catalog photoshoot packs, jewelry on model, flat lays, background removal, upscaling, reframing and product videos. Uses your own Fashio API key and credits.",
+  "author": {
+    "name": "Fashio AI",
+    "email": "hi@fashiolabs.com",
+    "url": "https://fashiolabs.com"
+  },
+  "homepage": "https://fashiolabs.com/mcp",
+  "repository": "https://github.com/fashiolabs/fashio-agent-plugin",
+  "license": "MIT",
+  "keywords": ["fashion", "ecommerce", "product-photography", "virtual-try-on", "ai-models", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "fashio": { "trust": "untrusted" }
+      }
+    }
+  }
+}
